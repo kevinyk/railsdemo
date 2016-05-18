@@ -1,0 +1,7 @@
+<h1>Log in</h1>
+<form action = '/sessions' method = 'POST'>
+	<input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
+	Enter an email: <input type = 'text' name = 'Email'>
+	Enter a password: <input type = 'text' name = 'Password'>
+	<input type = 'submit' value = 'Log In'>
+</form>
